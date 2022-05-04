@@ -1,0 +1,70 @@
+*{
+margin: 0px;
+padding:0px ;
+box-sizing: border-box /*Importante agregar estas propiedades*/
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+h3 {
+    font-size: 24px;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.descuento {
+    font-size: 16px;
+}
+
+.descripcion {
+    font-size: 16px;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+  
+}
+
+div.burger-menu {
+    text-align: center;
+}
+
+div.burger-menu i{
+    
+    background-color:#1259c3;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;    
+    
+    
+}
+
+p{
+    font-size: 12px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color:white;
+}
+footer i{
+    color: #1259c3;
+    font-size: 2em;
+    line-height:10px
+
+}
