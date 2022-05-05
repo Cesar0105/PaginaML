@@ -21,6 +21,7 @@ h3 {
 
 .descripcion {
     font-size: 16px;
+    display: none;
 }
 
 header{
@@ -49,9 +50,14 @@ div.burger-menu i{
     height: 40px;
     margin: 10px 0px 20px 0px;
     padding: 10px;
-    width: 40px;    
+    width: 40px;  
     
-    
+}
+.site{
+    display: none;
+}
+.login{
+    display: none;
 }
 
 p{
@@ -68,3 +74,59 @@ footer i{
     line-height:10px
 
 }
+div.main-article{
+ 
+    border:solid 1px #ebebeb;
+    box-sizing: border-box;
+    padding: 15%;
+    background-color:white ;
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+    
+
+}
+
+main {
+    width: 90vw;
+  
+    margin: 10%;
+}
+
+article {
+    margin: 10px;
+}
+
+
+@media (min-width: 361px){
+    body {
+    background: yellow;
+    }
+    div.main-article{
+    
+    }
+
+  .descripcion{
+      display: block;
+  }
+  .login{
+      display: block;
+  }
+  .site{
+      display: block;
+  }
+  div.burger-menu i{
+      display: none;
+  }
+      
+}
+
+
+@media (min-width: 769px){
+    body {
+    background: red;
+    }
+  
+
+      
+  
+    }
+
