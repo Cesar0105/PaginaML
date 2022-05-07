@@ -7,6 +7,9 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #ebebeb;
 }
+p{
+    font-size: 12px;
+}
 h3 {
     font-size: 24px;
 }
@@ -15,12 +18,12 @@ h3 {
     font-size: 18px;
 }
 
-.descuento {
+.descuento, .descripcion {
     font-size: 16px;
 }
 
 .descripcion {
-    font-size: 16px;
+    
     display: none;
 }
 
@@ -51,6 +54,7 @@ div.burger-menu i{
     margin: 10px 0px 20px 0px;
     padding: 10px;
     width: 40px;  
+    text-align: center;
     
 }
 .site{
@@ -80,15 +84,27 @@ div.main-article{
     box-sizing: border-box;
     padding: 15%;
     background-color:white ;
-    box-shadow: 0px 0px 10px rgb(100,100,100);
+
+    
+
+}
+
+div.image{
+ 
+    box-sizing: border-box;
+    padding: 15%;
+    background-color:white ;
+   
     
 
 }
 
 main {
-    width: 90vw;
   
-    margin: 10%;
+   /*aqui habia un margin y padding 
+     width: 90vw;
+  
+    margin: 10%;*/
 }
 
 article {
@@ -97,12 +113,6 @@ article {
 
 
 @media (min-width: 361px){
-    body {
-    background: yellow;
-    }
-    div.main-article{
-    
-    }
 
   .descripcion{
       display: block;
@@ -116,14 +126,14 @@ article {
   div.burger-menu i{
       display: none;
   }
-      
+      .article {
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+      }
 }
 
 
 @media (min-width: 769px){
-    body {
-    background: red;
-    }
+
   
 
       
